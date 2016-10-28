@@ -1,0 +1,29 @@
+{
+    "name": "enygma/slim-app-command",
+    "description": "A command for use with with slim-app-skeleton",
+    "keywords": ["slim", "framework", "skeleton", "slimframework", "command"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Cornutt",
+            "email": "ccornutt@phpdeveloper.org"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:psecio/validation.git"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "suggest": {
+        "deployer/deployer": "Allows for easier, repeatable application deployments"
+    }
+}
